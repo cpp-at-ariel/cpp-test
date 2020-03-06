@@ -12,6 +12,7 @@
 using namespace phonetic;
 
 #include <string>
+#include <iostream>
 using namespace std;
 
 

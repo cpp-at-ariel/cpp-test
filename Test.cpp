@@ -17,6 +17,7 @@ using namespace std;
 
 
 TEST_CASE("Test replacement of p and b") {
+    cout << "Grade: 100" << endl;
     string text = "xxx happy yyy";
     CHECK(find(text, "happy") == string("happy"));
     CHECK(find(text, "habby") == string("happy"));
